@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+.fooditem{
+    border:2px solid #cfcdcd;
+    margin: 15px 0;
+    box-sizing: border-box !important;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+}
+.fooditem-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    margin: 8px 0;
+}
+
+.fooditem-name, .fooditem-price, .fooditem-edit, .fooditem-delete{
+    display: table-cell !important;
+    vertical-align: middle !important;
+}
+
+.fooditem-name{
+    font-family: 'Carter One', cursive;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.fooditem-price{
+    border-right: 1px solid #cfcdcd;
+    text-align: center;
+}
+.fooditem-price span{
+    color: #73777B;
+    font-family: 'Acme', sans-serif;
+}
+.fooditem i{
+    color: #3b3c3d;
+}
+
+.fooditem-delete{
+    cursor: pointer;
+}
+
+@media (max-width: 767.98px) { 
+    .fooditem-img{
+        margin: 10px 0;
+    }
+   }
