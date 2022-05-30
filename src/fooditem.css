@@ -39,7 +39,7 @@
     color: #3b3c3d;
 }
 
-.fooditem-delete{
+.fooditem-delete, .fooditem-edit{
     cursor: pointer;
 }
 
